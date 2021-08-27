@@ -9,14 +9,14 @@ Product Backlog
 
 Sprints
 
-- Test fixture
+- Test Case
   - [ ] design
   - [ ] development
   - [ ] testing
   - [ ] documentation
   - [ ] push
 
-- Test Case
+- Test fixture
   - [ ] design
   - [ ] development
   - [ ] testing
