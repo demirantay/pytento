@@ -1,0 +1,43 @@
+algorithms and tests for the project:
+
+### Von Neumann Architecture
+
+Input:
+User inputting tests into the framework and checking if it works correctly
+
+Process:
+The process evaluates if the tests are asserting correctly
+
+Memory:
+The process can use memory such as database access if the system has requested it
+
+Output:
+Outputting if tests run correctly or which one breaks
+
+### Nodes
+
+- Test Node
+- Test Fixture Node
+- Test Suite Node
+- Test Runner Node
+
+### Algorithms
+
+Input Algos:
+- user is going input their test cases
+
+Process Algos:
+- first take all of the test cases
+- check if it requires something with memory if it does than create the setup
+- create a test fixture based on the requirements of the test
+- create a test suite
+- start aggrageting and testing all of it unitfully
+- play with memory and keep updating the test status for the tests that have
+passed and failed
+
+Memory Algos:
+- create neccessary memories if the test requires
+- have test runners memory to hold the test status
+
+Output Algos:
+- out put the test status

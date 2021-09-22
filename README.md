@@ -1,2 +1,3 @@
 # pytento
-testing framework written with python
+
+A unit testing library written with python
