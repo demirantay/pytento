@@ -27,16 +27,18 @@ Outputting if tests run correctly or which one breaks
 - user is going input their test cases
 
 Process Algos:
-- first a test runner is initiated
-- first the runner checkes the tests are written in a correct format
-- then it creats a test site that aggregates and understands which tests should be grouped
-- after the aggregation is completed a new test fixture is created based on the requirements of the tests
-- once everything is setup the runner runs the tests and updates the status based on that
-- once everyhing is complete runner outputs the status to output algorithms
+- first a test runner is started
+- test runner checks if all of the tests are written correctly
+- test runner creates a test suite, where all of the tests are aggregated
+- test test runner runs the fixture and creates a state with memory based on the inputs
+- test runner than runs the tests individually and updates the status
+- test runner outputs the status to output algos
+
 
 Memory Algos:
 - create neccessary memories if the test requires
 - have test runners memory to hold the test status
 
 Output Algos:
+- test discover tool that collects all of the tests
 - out put the test status

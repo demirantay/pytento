@@ -1,25 +1,23 @@
 from pytento.case import TestCase
 from pytento.runner import TestRunner
 
+# Input
 
-# Input Algos
 
 class TestFoo(TestCase):
 
-    def test_equal(self):
+    def test_equality(self):
         a = 1
         b = 1
         return self.assertEqual(a, b)
 
-    def test_not_equal(self):
-        a = 1
-        b = 2
-        return self.assertNotEqual(a, b)
 
-
-# Processing and Memory Algos
-
-
-# Output Algos
+# Processing and Memory
 new_test = TestFoo()
-print(new_test.test_not_equal())
+
+
+new_fixture = TestRunner(new_test)
+
+
+# Output
+print(new_fixture.check_fixture_body())
