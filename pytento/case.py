@@ -8,6 +8,9 @@ class TestCase():
     def __init__(self):
         pass
 
+    def __str__(self):
+        return "TestCase (obj)"
+
     # this methos checks if a and b are equal
     def assertEqual(self, a, b):
         if a == b:

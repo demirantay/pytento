@@ -6,6 +6,4 @@ class TestFixture():
     starting a server process.
     """
 
-    def __init__(self):
-        self.main_status = False
-        self.all_status_codes = []
+    
