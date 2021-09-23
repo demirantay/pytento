@@ -16,24 +16,23 @@ Outputting if tests run correctly or which one breaks
 
 ### Nodes
 
-- Test Node
+- Test Node [x]
 - Test Fixture Node
 - Test Suite Node
 - Test Runner Node
 
 ### Algorithms
 
-Input Algos:
+[x] Input Algos:
 - user is going input their test cases
 
 Process Algos:
-- first take all of the test cases
-- check if it requires something with memory if it does than create the setup
-- create a test fixture based on the requirements of the test
-- create a test suite
-- start aggrageting and testing all of it unitfully
-- play with memory and keep updating the test status for the tests that have
-passed and failed
+- first a test runner is initiated
+- first the runner checkes the tests are written in a correct format
+- then it creats a test site that aggregates and understands which tests should be grouped
+- after the aggregation is completed a new test fixture is created based on the requirements of the tests
+- once everything is setup the runner runs the tests and updates the status based on that
+- once everyhing is complete runner outputs the status to output algorithms
 
 Memory Algos:
 - create neccessary memories if the test requires

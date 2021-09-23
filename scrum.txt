@@ -1,7 +1,7 @@
 Product Backlog
 
 - [ ] Main Nodes
-- [ ] Input algorithms
+- [x] Input algorithms
 - [ ] Process Algorithms
 - [ ] Memory Algorithms
 - [ ] Output Algorithms
@@ -13,7 +13,7 @@ Sprints
 - Test Case
   - [x] design
   - [x] development
-  - [ ] push
+  - [x] push
 
 - Test fixture
   - [ ] design
