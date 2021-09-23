@@ -5,4 +5,7 @@ class TestFixture():
     for example, creating temporary or proxy databases, directories, or
     starting a server process.
     """
-    pass
+
+    def __init__(self):
+        self.main_status = False
+        self.all_status_codes = []

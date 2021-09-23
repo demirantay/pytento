@@ -27,17 +27,17 @@ Input Algos:
 - user is going input their test cases
 
 Process Algos:
-- first take all of the test cases
-- check if it requires something with memory if it does than create the setup
-- create a test fixture based on the requirements of the test
-- create a test suite
-- start aggrageting and testing all of it unitfully
-- play with memory and keep updating the test status for the tests that have
-passed and failed
+- first a test runner is started
+- test runner checks if all of the tests are written correctly
+- test runner creates a test suite, where all of the tests are aggregated
+- test test runner runs the fixture and creates a state with memory based on the inputs
+- test runner than runs the tests individually and updates the status
+- test runner outputs the status to output algos
 
 Memory Algos:
 - create neccessary memories if the test requires
 - have test runners memory to hold the test status
 
 Output Algos:
+- test discover tool that collects all of the tests
 - out put the test status

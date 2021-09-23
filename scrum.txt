@@ -13,7 +13,7 @@ Sprints
 - Test Case
   - [x] design
   - [x] development
-  - [ ] push
+  - [x] push
 
 - Test fixture
   - [ ] design
