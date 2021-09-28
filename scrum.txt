@@ -8,7 +8,6 @@ Version 1.0.0
 - [x] first a test runner is started
 - [ ] test runner checks if all of the tests are written correctly
 - [ ] test runner creates a test suite, where all of the tests are aggregated
-- [ ] test test runner runs the fixture and creates a state with memory based on the inputs
 - [ ] test runner than runs the tests individually and updates the status
 - [ ] test runner outputs the status to output algos
 - [ ] output algorithm shows the tests passed and the which ones have failed
