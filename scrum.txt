@@ -16,9 +16,7 @@ Sprints
   - [x] push
 
 - Test fixture
-  - [ ] design
-  - [ ] development
-  - [ ] push
+  - [x]
 
 - Test Suite
   - [ ] design
