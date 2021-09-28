@@ -5,7 +5,7 @@ Version 1.0.0
   - [x] development
   - [x] push
 
-- [ ] first a test runner is started
+- [x] first a test runner is started
 - [ ] test runner checks if all of the tests are written correctly
 - [ ] test runner creates a test suite, where all of the tests are aggregated
 - [ ] test test runner runs the fixture and creates a state with memory based on the inputs

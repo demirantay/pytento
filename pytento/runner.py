@@ -40,6 +40,8 @@ class TestRunner():
             test_case_method_list = [attribute for attribute in dir(test_case) if callable(getattr(test_case, attribute)) and attribute.startswith('__') is False]
             method_list = [attribute for attribute in dir(test) if callable(getattr(test, attribute)) and attribute.startswith('__') is False]
 
+            print(test)
+
             for method in method_list[len(test_case_method_list):]:
                 all_body_data.append(method)
 
