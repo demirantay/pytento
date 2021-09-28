@@ -6,4 +6,8 @@ class TestFixture():
     starting a server process.
     """
 
-    
+    def __init__(self):
+        pass
+
+    def set_up(self):
+        pass

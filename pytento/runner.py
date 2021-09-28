@@ -27,6 +27,18 @@ class TestRunner():
     def get_inputted_test_cases(self):
         return self.inputted_test_cases
 
+    """ I am writing everything in here at the moment but I will objectfiy
+        everything with OOP designs and create a main container class in core.py
+        once everything here runs smoothly
+    """
+
+    # Test Fixture ----------------------------------------------------------
+
+    def set_up(self, db):
+        pass
+
+    # Test Suite -----------------------------------------------------------
+
     # This function checks if all of the tests are written in a correct format
     # if there is something missing it throws an error, since this framework
     # is a strictly typed testing framework
@@ -38,7 +50,12 @@ class TestRunner():
             test_case_method_list = [attribute for attribute in dir(test_case) if callable(getattr(test_case, attribute)) and attribute.startswith('__') is False]
             method_list = [attribute for attribute in dir(test) if callable(getattr(test, attribute)) and attribute.startswith('__') is False]
 
-            return len(test_case_method_list)
+            for method in method_list[len(test_case_method_list):]:
+                all_body_data.append(method)
+
+            return all_body_data
+
+
 
 
     def create_test_suite(self):

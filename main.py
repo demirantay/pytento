@@ -11,13 +11,26 @@ class TestFoo(TestCase):
         b = 1
         return self.assertEqual(a, b)
 
+    def test_not_true(self):
+        a = 1
+        b = 2
+        return self.assertNotEqual(a, b)
+
+
+class TestBar(TestCase):
+
+    def test_bar(self):
+        a = 1
+        b = 1
+        return self.assertEqual(a, b)
+
 
 # Processing and Memory
 new_test = TestFoo()
+new_test2 = TestBar()
 
-
-new_fixture = TestRunner(new_test)
+new_runner = TestRunner(new_test, new_test2)
 
 
 # Output
-print(new_fixture.check_fixture_body())
+print(new_runner.check_fixture_body())
