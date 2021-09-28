@@ -31,12 +31,7 @@ class TestRunner():
         everything with OOP designs and create a main container class in core.py
         once everything here runs smoothly
     """
-
-    # Test Fixture ----------------------------------------------------------
-
-    def set_up(self, db):
-        pass
-
+    
     # Test Suite -----------------------------------------------------------
 
     # This function checks if all of the tests are written in a correct format

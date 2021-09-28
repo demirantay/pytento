@@ -11,3 +11,10 @@ class TestFixture():
 
     def set_up(self):
         pass
+
+
+    """
+    I skipped fixture module for now in version one because this is gonna
+    need to implement a dabatse, garbage collection ... etc. so this is not
+    needed in verison 1.0.0
+    """

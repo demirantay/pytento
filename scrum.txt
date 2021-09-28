@@ -29,7 +29,6 @@ Sprints
   - [ ] documentation
   - [ ] push
 
-
 - [ ] Check if everything works together correctly
 - [ ] python pacakge it and upload to pip
 
