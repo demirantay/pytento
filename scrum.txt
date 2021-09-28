@@ -1,46 +1,24 @@
-Product Backlog
-
-- [ ] Main Nodes
-- [x] Input algorithms
-- [ ] Process Algorithms
-- [ ] Memory Algorithms
-- [ ] Output Algorithms
-
----------------------------------------------------------------------------
-
-Sprints
+Version 1.0.0
 
 - Test Case
   - [x] design
   - [x] development
   - [x] push
 
-- Test fixture
-  - [x]
-
-- Test Suite
-  - [ ] design
-  - [ ] development
-  - [ ] push
-
-- Test Runner
-  - [ ] design
-  - [ ] development
-  - [ ] documentation
-  - [ ] push
+- [ ] first a test runner is started
+- [ ] test runner checks if all of the tests are written correctly
+- [ ] test runner creates a test suite, where all of the tests are aggregated
+- [ ] test test runner runs the fixture and creates a state with memory based on the inputs
+- [ ] test runner than runs the tests individually and updates the status
+- [ ] test runner outputs the status to output algos
+- [ ] output algorithm shows the tests passed and the which ones have failed
 
 - [ ] Check if everything works together correctly
 - [ ] python pacakge it and upload to pip
+- [ ] check if package works
 
 - Documentation
   - [ ] Main README
   - [ ] Docs/readme
-  - [ ] dev docs
-    - [ ] test fixture
-    - [ ] test Case
-    - [ ] test Suite
-    - [ ] test runner
   - [ ] user docs
     - [ ] main single file usage explained
-
----------------------------------------------------------------------------

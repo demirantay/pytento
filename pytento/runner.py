@@ -27,11 +27,6 @@ class TestRunner():
     def get_inputted_test_cases(self):
         return self.inputted_test_cases
 
-    """ I am writing everything in here at the moment but I will objectfiy
-        everything with OOP designs and create a main container class in core.py
-        once everything here runs smoothly
-    """
-    
     # Test Suite -----------------------------------------------------------
 
     # This function checks if all of the tests are written in a correct format
@@ -49,9 +44,6 @@ class TestRunner():
                 all_body_data.append(method)
 
             return all_body_data
-
-
-
 
     def create_test_suite(self):
         pass

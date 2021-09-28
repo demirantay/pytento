@@ -2,8 +2,6 @@ from pytento.case import TestCase
 from pytento.runner import TestRunner
 
 # Input
-
-
 class TestFoo(TestCase):
 
     def test_equality(self):
