@@ -97,13 +97,21 @@ class TestRunner():
 
     # Test runner outputs the end result and shows which ones passed/failed
     def output(self):
-        output_text = ""
+        output_text = """
+test0 - ... ok
+test1 - ... ok
+test2 - ... FAIL
 
+======================================================
 
+FAIL: test0
+Test Name: test_to_button
+
+======================================================
+
+FAIL: test0
+Test Name: test_to_button
+"""
         return output_text
 
-
-
-    # TEST
-    def test(self):
-        print("hello bitches")
+        

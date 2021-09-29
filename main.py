@@ -46,8 +46,5 @@ new_runner = TestRunner(new_test, new_test2, new_test3)
 
 # Output
 print(new_runner.check_fixture_body())
-new_runner.test_runner()
 
-
-# Test
-getattr(new_runner, "test")() #call
+print(new_runner.output())
