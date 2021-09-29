@@ -13,7 +13,7 @@ class TestRunner():
     interface, a textual interface or something else.
     """
     main_status = True
-    all_status_codes = []
+    test_state = {}
     inputted_test_cases = []
 
     def __init__(self, *tests):
@@ -92,26 +92,32 @@ class TestRunner():
                 result = getattr(test, method)() #call
                 test_state[method] = result
 
+        self.test_state = test_state
+
         return test_state
 
 
     # Test runner outputs the end result and shows which ones passed/failed
     def output(self):
-        output_text = """
-test0 - ... ok
-test1 - ... ok
-test2 - ... FAIL
+        output_text = "\n"
 
-======================================================
+        # adding the passed tests to output
+        i = 0
+        for state in self.test_state:
+            i += 1
 
-FAIL: test0
-Test Name: test_to_button
+            if self.test_state.get(state) == True:
+                output_text += "test " + str(i) + " - ... ok\n"
+            else:
+                output_text += "test " + str(i) + " - ... FAIL\n"
 
-======================================================
+        output_text += "\n===================================================\n"
 
-FAIL: test0
-Test Name: test_to_button
-"""
+        # adding the failed tests to outpuit
+        for state in self.test_state:
+            if self.test_state.get(state) == False:
+                output_text += "\nFAILED test name: " + str(state) + "\n"
+                output_text += "\n===================================================\n"
+
+
         return output_text
-
-        

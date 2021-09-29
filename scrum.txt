@@ -11,6 +11,7 @@ Version 1.0.0
 - [x] test runner than runs the tests individually and updates the status
 - [x] test runner outputs the status to output algos
 - [ ] output algorithm shows the tests passed and the which ones have failed
+- [ ] a single core class that runs everything correctly from the test runner
 
 - [ ] Check if everything works together correctly
 - [ ] python pacakge it and upload to pip

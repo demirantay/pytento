@@ -36,6 +36,11 @@ class TestBaz(TestCase):
         b = 2
         return self.assertEqual(a, b)
 
+    def test_xyz(self):
+        a = 1
+        b = 3
+        return self.assertEqual(a, b)
+
 
 # Processing and Memory
 new_test = TestFoo()
@@ -46,5 +51,5 @@ new_runner = TestRunner(new_test, new_test2, new_test3)
 
 # Output
 print(new_runner.check_fixture_body())
-
+new_runner.test_runner()
 print(new_runner.output())
