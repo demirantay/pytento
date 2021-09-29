@@ -6,11 +6,11 @@ Version 1.0.0
   - [x] push
 
 - [x] first a test runner is started
-- [ ] test runner checks if all of the tests are written correctly
+- [x] test runner checks if all of the tests are written correctly
 - [x] test runner creates a test suite, where all of the tests are aggregated
 - [x] test runner than runs the tests individually and updates the status
 - [x] test runner outputs the status to output algos
-- [ ] output algorithm shows the tests passed and the which ones have failed
+- [x] output algorithm shows the tests passed and the which ones have failed
 - [ ] a single core class that runs everything correctly from the test runner
 
 - [ ] Check if everything works together correctly

@@ -17,39 +17,26 @@ class TestFoo(TestCase):
 
 class TestBar(TestCase):
 
-    def tes_bar(self):
+    def test_bar(self):
         a = 1
         b = 1
         return self.assertEqual(a, b)
 
-
-class TestBaz(TestCase):
-
-    def test_baz(self):
-        a = 1
-        b = 1
-        return self.assertEqual(a, b)
-
-
-    def test_this_will_come_wrong(self):
-        a = 1
-        b = 2
-        return self.assertEqual(a, b)
-
-    def test_xyz(self):
-        a = 1
-        b = 3
-        return self.assertEqual(a, b)
+    def test_for_ayyuce(self):
+        name = "ayyuce"
+        demirs_name = "ayyuce"
+        return self.assertEqual(name, demirs_name)
 
 
 # Processing and Memory
 new_test = TestFoo()
 new_test2 = TestBar()
-new_test3 = TestBaz()
 
-new_runner = TestRunner(new_test, new_test2, new_test3)
+new_runner = TestRunner(new_test, new_test2)
 
 # Output
-print(new_runner.check_fixture_body())
+#print(new_runner.check_fixture_body())
+
+
 new_runner.test_runner()
 print(new_runner.output())

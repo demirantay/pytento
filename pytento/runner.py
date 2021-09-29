@@ -64,14 +64,12 @@ class TestRunner():
                 test_fixutre_holder.append(False)
 
         for test_fixture_status in test_fixutre_holder:
-            if test_fixture_status == False:
-                test_fixture_state = False
+            if test_fixture_status == True:
+                pass
             else:
-                test_fixture_state = True
+                test_fixture_state = False
 
         return test_fixture_state
-
-        # THIS CODE ABOVE IS NOT WORKING !!!!!!! RETURNING WRONGLY
 
 
     # Test Runner
@@ -118,6 +116,5 @@ class TestRunner():
             if self.test_state.get(state) == False:
                 output_text += "\nFAILED test name: " + str(state) + "\n"
                 output_text += "\n===================================================\n"
-
 
         return output_text
