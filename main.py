@@ -1,7 +1,6 @@
 from pytento.case import TestCase
-from pytento.runner import TestRunner
+from pytento.core import Pytento
 
-# Input
 class TestFoo(TestCase):
 
     def test_equality(self):
@@ -24,19 +23,13 @@ class TestBar(TestCase):
 
     def test_for_ayyuce(self):
         name = "ayyuce"
-        demirs_name = "ayyuce"
+        demirs_name = "ayyue"
         return self.assertEqual(name, demirs_name)
 
 
-# Processing and Memory
 new_test = TestFoo()
 new_test2 = TestBar()
 
-new_runner = TestRunner(new_test, new_test2)
-
-# Output
-#print(new_runner.check_fixture_body())
-
-
-new_runner.test_runner()
-print(new_runner.output())
+pytento = Pytento(new_test, new_test2)
+pytento.test_runner()
+pytento.output()
