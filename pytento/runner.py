@@ -1,5 +1,8 @@
+# Python Imports
 import inspect
+from itertools import ifilter
 
+# My own library imports
 from case import TestCase
 
 
@@ -68,15 +71,39 @@ class TestRunner():
 
         return test_fixture_state
 
+        # THIS CODE ABOVE IS NOT WORKING !!!!!!! RETURNING WRONGLY
 
-    # Create a test suite where all tests are aggregated
-    def test_suite(self):
-        pass
 
-    # Test runners starts running the tests and updates the status
+    # Test Runner
+    # this method contains the algorithms that bascially runs through all of
+    # the tests indivudually and returns you a state that shows which one
+    # of those tests passed (True) and which one of those failed (False)
+    # with their test names written in a key-value pairing
     def test_runner(self):
-        pass
+        test_state = {}
+
+        test_case = TestCase()
+        test_case_method_list = [attribute for attribute in dir(test_case) if callable(getattr(test_case, attribute)) and attribute.startswith('__') is False]
+
+        for test in self.inputted_test_cases:
+            method_list = [attribute for attribute in dir(test) if callable(getattr(test, attribute)) and attribute.startswith('__') is False]
+
+            for method in method_list[len(test_case_method_list):]:
+                result = getattr(test, method)() #call
+                test_state[method] = result
+
+        return test_state
+
 
     # Test runner outputs the end result and shows which ones passed/failed
     def output(self):
-        pass
+        output_text = ""
+
+
+        return output_text
+
+
+
+    # TEST
+    def test(self):
+        print("hello bitches")
