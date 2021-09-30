@@ -3,7 +3,7 @@ from distutils.core import setup
 setup(
   name = 'pytento',
   packages = ['pytento'],
-  version = '1.0.0',
+  version = '1.0.1',
   license='MIT',
   description = 'This is a staticly-typed testing framework',
   author = 'Demir Antay',
