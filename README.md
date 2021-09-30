@@ -29,7 +29,7 @@ class TestBar(TestCase):
     def test_unequality(self):
         a = 1
         b = 2
-    return self.assertNotEqual(a, b)
+        return self.assertNotEqual(a, b)
 
 new_test = TestFoo()
 new_test2 = TestBar()
@@ -44,6 +44,8 @@ $ python filename.py
 
 ## Links
 
-- PyPI Releases: https://pypi.org/project/Flask/
-- Source Code: https://github.com/pallets/flask/
-- Issue Tracker: https://github.com/pallets/flask/issues/
+- Documentation: https://github.com/demirantay/pytento/docs/index.md
+- Changes: https://github.com/demirantay/pytento/docs/changes_log.md
+- PyPI Releases: https://pypi.org/project/pytento/
+- Source Code: https://github.com/demirantay/pytento/
+- Issue Tracker: https://github.com/demirantay/pytento/issues/

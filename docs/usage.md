@@ -43,4 +43,9 @@ pytento = Pytento(new_test, new_test2)
 pytento.test_runner()
 pytento.output()
 ```
-So now let's see what is happening above. First we import a test case and a pytento class from our newly downloaded `pytento` library.
+- So now let's see what is happening above. First we import a test case and a pytento class from our newly downloaded `pytento` library.
+- Then we created two test case classes that will act as containers to all of our tests.
+- Test methods that return a boolean value. ALWAYS remember every test method must start with `test_` or the framework will NOT run! Remember this is a staticly-typed framework.
+- Then we create the objs of our newly created test containers.
+- After that we create a new `Pytento` objects which will handle everything for us.
+- Finally we just run our testing framework with `.test_runner()` and use the `.output()` function to get the output of the tests.
