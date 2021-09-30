@@ -12,14 +12,13 @@ Version 1.0.0
 - [x] test runner outputs the status to output algos
 - [x] output algorithm shows the tests passed and the which ones have failed
 - [x] a single core class that runs everything correctly from the test runner
-- [ ] Check if everything works together correctly
-- [ ] python pacakge it and upload to pip
-- [ ] check if package works
+- [x] Check if everything works together correctly
 
 - Documentation
-  - [ ] Docs/readme
-  - [ ] user docs
-    - [ ] main single file usage explained
-  - [ ] dev docs
-    - [ ] main single file explaining the dev state of v.1.0.0
- - [ ] Main README
+- [x] index docs
+- [ ] download
+- [ ] usage
+- [ ] Main README
+
+ - [] python pacakge it and upload to pip
+ - [ ] check if package works

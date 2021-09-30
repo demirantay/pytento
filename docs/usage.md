@@ -1,3 +1,8 @@
+# Simple Usage
+
+Create a a new file in your project and test whatever you want!
+
+```python
 from pytento.case import TestCase
 from pytento.core import Pytento
 
@@ -26,6 +31,11 @@ class TestBar(TestCase):
         demirs_name = "ayyue"
         return self.assertEqual(name, demirs_name)
 
+    def test_assert_is(self):
+        arr = [1, 2]
+        arr2 = [1, 2]
+        return self.assertIs(arr, arr)
+
 
 new_test = TestFoo()
 new_test2 = TestBar()
@@ -33,3 +43,4 @@ new_test2 = TestBar()
 pytento = Pytento(new_test, new_test2)
 pytento.test_runner()
 pytento.output()
+```
