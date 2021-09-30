@@ -9,9 +9,7 @@ setup(
   author = 'Demir Antay',
   author_email = 'demir99antay@gmail.com',
   url = 'https://github.com/demirantay/pytento',
-  download_url = 'https://github.com/user/reponame/archive/v_01.tar.gz',
+  # download_url = 'https://github.com/user/reponame/archive/v_01.tar.gz',
   keywords = ['unit testing', 'python', 'testing', 'framework'],
-  install_requires=[
-          'validators',
-      ],
+  install_requires=[],
 )

@@ -1,6 +1,5 @@
 # Python Imports
 import inspect
-from itertools import ifilter
 
 # My own library imports
 from case import TestCase
