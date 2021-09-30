@@ -44,8 +44,8 @@ $ python filename.py
 
 ## Links
 
-- Documentation: https://github.com/demirantay/pytento/docs/index.md
-- Changes: https://github.com/demirantay/pytento/docs/changes_log.md
+- Documentation: https://github.com/demirantay/pytento/blob/main/docs/index.md
+- Changes: https://github.com/demirantay/pytento/blob/main/docs/changes_log.md
 - PyPI Releases: https://pypi.org/project/pytento/
 - Source Code: https://github.com/demirantay/pytento/
 - Issue Tracker: https://github.com/demirantay/pytento/issues/
