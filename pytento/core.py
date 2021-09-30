@@ -2,7 +2,7 @@
 import inspect
 
 # My own library imports
-from case import TestCase
+from .case import TestCase
 
 
 class Pytento():

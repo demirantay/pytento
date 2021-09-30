@@ -2,7 +2,7 @@ import setuptools
 
 setuptools.setup(
   name="pytento",
-  version="1.0.8",
+  version="1.0.9",
   author="Demir Antay",
   author_email="demir99antay@gmail.com",
   description='This is a staticly-typed testing framework',
