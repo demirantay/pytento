@@ -16,9 +16,9 @@ Version 1.0.0
 
 - Documentation
 - [x] index docs
-- [ ] download
-- [ ] usage
-- [ ] Main README
+- [x] download
+- [x] usage
+- [x] Main README
 
  - [] python pacakge it and upload to pip
  - [ ] check if package works

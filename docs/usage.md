@@ -27,13 +27,12 @@ class TestBar(TestCase):
         return self.assertEqual(a, b)
 
     def test_for_ayyuce(self):
-        name = "ayyuce"
-        demirs_name = "ayyue"
-        return self.assertEqual(name, demirs_name)
+        name = "john"
+        name2 = "silvia"
+        return self.assertEqual(name, name2)
 
     def test_assert_is(self):
         arr = [1, 2]
-        arr2 = [1, 2]
         return self.assertIs(arr, arr)
 
 
@@ -44,3 +43,4 @@ pytento = Pytento(new_test, new_test2)
 pytento.test_runner()
 pytento.output()
 ```
+So now let's see what is happening above. First we import a test case and a pytento class from our newly downloaded `pytento` library.
