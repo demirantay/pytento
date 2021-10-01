@@ -42,6 +42,20 @@ pytento.output()
 $ python filename.py
 ```
 
+## Quick Docs
+
+As you can see above you can test your datas with the `assert*` keyword. Down below you can find 
+
+- `assertEqual(a, b)` -- returns true if a and b have the same value
+- `assertNotEqual(a, b)` -- returns true if a and b do not have the same value
+- `assertTrue(a)` -- returns true if a is true
+- `assertFalse(a)` -- returns false if a is false
+- `assertIs(a, b)` -- returns true if a is b
+- `assertIsNot(a, b)` -- returns true if a is not b
+- `assertIsNone(a)` -- returns true if a is none
+- `assertIsNotNone(a)` -- returns true if is not none
+- `assertIsIn(a, b)` --  returns true if a is in b
+
 ## Links
 
 - Documentation: https://github.com/demirantay/pytento/blob/main/docs/index.md
